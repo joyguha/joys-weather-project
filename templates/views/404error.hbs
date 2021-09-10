@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header_files}}
+
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+
+                <div class="row">
+
+                    <!--right div-->
+                    <div class="col-md-6 col-12 main_header_right">
+                        <figure>
+                            <img src="img/error404.png" alt="joy guha" class="img-fluid">
+                        </figure>
+
+                    </div>
+
+                    <!--left div-->
+                    <div class="col-md-6 col-12 main_header_left ">
+                        <h2>{{errorMsg}} </h2>
+                        <h1><span class="text_highlight">opps!</span>&nbsp;<i class="fas fa-times"></i></h1>
+                        <p>Please check your url bar and type the correct url or else you can click Go Back button.</p>
+                        <a href="/" target="_blank"><button>Go Back</button></a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    {{>footer}}
+   
+
+</body>
+
+</html>

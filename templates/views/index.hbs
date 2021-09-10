@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>header_files}}
+
+</head>
+<body>
+    {{>navbar}}
+
+    <!-- main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+               <!--left div-->
+              <div class="row">
+               
+                <div class="col-md-6 col-12 main_header_left ">
+                  <h2>Welcome to <span class="text_highlight">Joy's Weather</span></h2>
+                  <h1>Get the current <span class="text_highlight">Weather</span> report of your city</h1>
+                  <p>By just simply search &nbsp;<i class="fas fa-search-location"></i></p>
+                  <a href="/weather"><button>Check Now</button></a>
+
+                </div>
+                <!--right div-->
+              <div class="col-md-6 col-12 main_header_right">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="slide_img w-100" src="/img/hb3.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="slide_img w-100" src="/img/hb6.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="slide_img w-100" src="/img/hb4.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="slide_img w-100" src="/img/hb9.png" alt="Fourth slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="slide_img w-100" src="/img/hb7.png" alt="Fifth slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="slide_img w-100" src="/img/hb10.jpg" alt="Eighth slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    {{>footer}}
+   
+</body>
+</html>
